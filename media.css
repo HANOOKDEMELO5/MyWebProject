@@ -1,0 +1,129 @@
+/* Responsive Media Query */
+
+/* For tablets and smaller laptops */
+@media screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .maincontent h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .maincontent p {
+        text-align: center;
+    }
+
+    .secondpart {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1,
+    .box2 {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .thirdpart {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .thirdpart .heading h5 {
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .thirdpart .boxs {
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav h1 {
+        font-size: 24px;
+    }
+
+    ul li {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .maincontent {
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .maincontent h2 {
+        font-size: 40px;
+    }
+
+    .maincontent button {
+        width: 100px;
+        height: 40px;
+    }
+
+    .secondpart {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .box1,
+    .box2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .thirdpart {
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .thirdpart .boxs {
+        width: 100%;
+        height: auto;
+    }
+
+    .fourthpart img {
+        position: static;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .client {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
